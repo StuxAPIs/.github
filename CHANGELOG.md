@@ -3,6 +3,14 @@
 All notable changes to this repository are documented here. Versions follow
 [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH).
 
+## v1.1.0
+
+### Added
+- `LICENSE` (MIT, copyright Stux.Group) — this repo is StuxAPIs' own (not a fork), so it should carry an explicit copyright notice rather than the vague "open source and available for use and modification" line it had before
+
+### Changed
+- `README.md`'s License section now points at `LICENSE` and adds a dedicated Copyright section
+
 ## v1.0.1
 
 ### Fixed

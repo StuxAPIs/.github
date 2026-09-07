@@ -50,7 +50,11 @@ We welcome contributions! Please refer to our [Contributing Guidelines](CONTRIBU
 
 ## License
 
-This project is open source and available for use and modification.
+MIT — see [LICENSE](LICENSE).
+
+## Copyright
+
+(C) 2026 Stux.Group. All rights reserved.
 
 ---
 
