@@ -3,6 +3,11 @@
 All notable changes to this repository are documented here. Versions follow
 [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH).
 
+## v1.1.1
+
+### Changed
+- `README.md` and `profile/README.md`'s "StuxAPIs is part of the Stux.Group Brand of Companies" line now includes the Stux.Group icon inline
+
 ## v1.1.0
 
 ### Added

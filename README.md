@@ -60,4 +60,4 @@ MIT — see [LICENSE](LICENSE).
 
 Made by [StuxAPIs](https://github.com/StuxAPIs)
 
-*StuxAPIs is part of the [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*
+*StuxAPIs is part of the <img src="https://media.stux.group/global/icon.png" height="14" alt="Stux.Group" valign="middle"> [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*
