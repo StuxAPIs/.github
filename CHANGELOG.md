@@ -5,6 +5,11 @@ All notable changes to this repository are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.1.4
+
+### Changed
+- StuxAPIs now has its own logo/icon (`https://global.media.stuxapis.net/logo.png` / `/icon.png`) instead of relying on a placeholder URL or the GitHub org avatar as a stand-in. `README.md` and `profile/README.md`'s header logo now points at the real hosted logo (was a broken/never-live `media.stuxapis.net/global/logo.png` URL), and both files' footer "Built & Maintained by StuxAPIs" icon now uses the real icon instead of `github.com/StuxAPIs.png`
+
 ## v1.1.3
 
 ### Changed
