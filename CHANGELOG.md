@@ -5,6 +5,11 @@ All notable changes to this repository are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.1.3
+
+### Changed
+- `README.md` and `profile/README.md`'s footer brand-attribution block updated to the new two-line format (Built & Maintained by StuxAPIs, Hosted by Stuxedo / StuxAPIs is a part of the Stux.Group brand of businesses), replacing the older single-line disclaimer; `README.md`'s redundant separate "Made by StuxAPIs" line was also removed since the new footer already covers that
+
 ## v1.1.2
 
 ### Changed

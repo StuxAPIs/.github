@@ -38,4 +38,5 @@ For inquiries, please reach out at [contact@stuxapis.net](mailto:contact@stuxapi
 
 Thank you for visiting our profile! Together, we can make a significant impact in the tech community.
 
-*StuxAPIs is part of the <img src="https://media.stux.group/global/icon.png" height="14" alt="Stux.Group" valign="middle"> [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*
+*Built & Maintained by <img src="https://github.com/StuxAPIs.png" height="14" alt="StuxAPIs" valign="middle"> [StuxAPIs](https://github.com/StuxAPIs), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).    
+StuxAPIs is a part of the <img src="https://media.stux.group/global/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
