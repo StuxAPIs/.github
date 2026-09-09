@@ -26,7 +26,7 @@ StuxAPIs aims to provide reliable, fast, and well-documented APIs for the Stux.G
 
 ### Contact Us
 
-For inquiries, please reach out at [contact@stuxapis.net](mailto:contact@stuxapis.net). We'd love to hear from you!
+For inquiries, please reach out at [hello@stuxapis.net](mailto:hello@stuxapis.net). We'd love to hear from you!
 
 ### Our Activity
 

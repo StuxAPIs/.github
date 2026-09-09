@@ -42,7 +42,7 @@ By participating in any StuxAPIs project, you agree to uphold our community stan
 
 ## Questions
 
-If you have any questions, feel free to reach out at [contact@stuxapis.net](mailto:contact@stuxapis.net) or open a discussion in the relevant repository.
+If you have any questions, feel free to reach out at [hello@stuxapis.net](mailto:hello@stuxapis.net) or open a discussion in the relevant repository.
 
 ---
 
