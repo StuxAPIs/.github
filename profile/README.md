@@ -18,15 +18,27 @@ We are dedicated to building and maintaining the APIs that power the Stux.Group 
 
 StuxAPIs aims to provide reliable, fast, and well-documented APIs for the Stux.Group ecosystem and beyond.
 
+### Our Services
+
+| Service | What it is |
+|---|---|
+| 🐱 [Kittens](https://github.com/StuxAPIs/Kittens) | An API that provides random images of kittens. |
+| 🔐 [SecretGen](https://github.com/StuxAPIs/SecretGen) | A simple API which generates secrets. |
+| 🌙 [Lunar Calendar](https://github.com/StuxAPIs/LunarCalendar) | A lunar calendar API — fork hosted by StuxAPIs, original project by hnthap. |
+| 📊 [GitHub Stats](https://github.com/StuxAPIs/GitHubStats) | Dynamically generate GitHub stats cards for your READMEs. |
+| 📊 [GitHub Stats Action](https://github.com/StuxAPIs/GithubStatsAction) | A GitHub Action wrapper for generating stats cards in CI. |
+| 📊 [GitHub Stats Legacy](https://github.com/StuxAPIs/GitHubStatsLegacy) | The original GitHub Readme Stats fork — kept for backwards compatibility. |
+
 ### Get Involved
 
-1. **Explore our projects**: Check out our repositories to see what we're building.
+1. **Explore our services**: See the table above, or check out our repositories to see what we're building.
 2. **Follow us on GitHub**: Stay updated on our latest releases and updates.
 3. **Join our community**: Contribute to discussions, suggest improvements, and collaborate with us!
 
 ### Contact Us
 
-For inquiries, please reach out at [hello@stuxapis.net](mailto:hello@stuxapis.net). We'd love to hear from you!
+For inquiries, please reach out at [hello@stuxapis.net](mailto:hello@stuxapis.net). We'd love to hear from you!  
+For legal, privacy, or copyright matters, contact [legal@stuxapis.net](mailto:legal@stuxapis.net) instead.
 
 ### Our Activity
 

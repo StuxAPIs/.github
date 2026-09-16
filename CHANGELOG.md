@@ -5,6 +5,11 @@ All notable changes to this repository are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.1.8
+
+### Added
+- `profile/README.md` gained the "Our Services" table (Kittens, SecretGen, Lunar Calendar, GitHub Stats, GitHub Stats Action, GitHub Stats Legacy) and a `legal@stuxapis.net` contact line, matching the fuller template already used by Stux.Group's own profile.
+
 ## v1.1.7
 
 ### Fixed
