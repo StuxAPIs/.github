@@ -46,6 +46,12 @@ If you have any questions, feel free to reach out at [hello@stuxapis.net](mailto
 
 We appreciate every contribution, no matter how small. Thank you for helping make StuxAPIs better!
 
+## Branches
+
+- Work on `test`, or on a branch off it. Never push to `main`
+- Changes reach `main` only through a pull request from `test` into `main`, which needs CI to pass and is reviewed and merged by Leo
+- Release commits and tags are made on `test` (`git push origin test --tags`) and take effect when the pull request is merged. The organization profile updates when the pull request is merged.
+
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing). To release:
