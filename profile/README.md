@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stuxapis.net/logo.png" height="100" alt="StuxAPIs Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stuxapis.net/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stuxapis.net/logo-dark.png"><img src="https://global.media.stuxapis.net/logo-dark.png" height="100" alt="StuxAPIs Logo"></picture>
 </p>
 
 ## Welcome to the StuxAPIs Official GitHub!
@@ -20,18 +20,42 @@ StuxAPIs aims to provide reliable, fast, and well-documented APIs for the Stux.G
 
 ### Our Services
 
+Every StuxAPIs API and service, with live status, is listed at [services.stuxapis.net](https://services.stuxapis.net).
+
 | Service | What it is |
 |---|---|
-| 🐱 [Kittens](https://github.com/StuxAPIs/Kittens) | An API that provides random images of kittens. |
-| 🔐 [SecretGen](https://github.com/StuxAPIs/SecretGen) | A simple API which generates secrets. |
-| 🌙 [Lunar Calendar](https://github.com/StuxAPIs/LunarCalendar) | A lunar calendar API — fork hosted by StuxAPIs, original project by hnthap. |
-| 📊 [GitHub Stats](https://github.com/StuxAPIs/GitHubStats) | Dynamically generate GitHub stats cards for your READMEs. |
-| 📊 [GitHub Stats Action](https://github.com/StuxAPIs/GithubStatsAction) | A GitHub Action wrapper for generating stats cards in CI. |
-| 📊 [GitHub Stats Legacy](https://github.com/StuxAPIs/GitHubStatsLegacy) | The original GitHub Readme Stats fork — kept for backwards compatibility. |
+| 🧭 [StuxAPIs Services](https://services.stuxapis.net) | Every StuxAPIs API and service, in one place ([repo](https://github.com/StuxAPIs/Services)). |
+| 💓 [StuxAPIs Status](https://status.stuxapis.net) | Live status and uptime history of every StuxAPIs service ([repo](https://github.com/StuxAPIs/Status)). |
+| ✨ [SeasonalOverlaysLibrary](https://seasonaloverlayslibrary.stuxapis.net) | Snow, leaves, confetti and fireworks overlays for any page, from one dependency-free script ([repo](https://github.com/StuxAPIs/SeasonalOverlaysLibrary)). |
+| 🐱 [Kittens](https://kittens.stuxapis.net) | An API that provides random images of kittens ([repo](https://github.com/StuxAPIs/Kittens)). |
+| 🔐 [SecretGen](https://secretgen.stuxapis.net) | A simple API that generates secrets ([repo](https://github.com/StuxAPIs/SecretGen)). |
+| 📊 [GithubStats](https://githubstats.stuxapis.net) | GitHub statistics cards for READMEs and profiles, as an API ([repo](https://github.com/StuxAPIs/GithubStats)). |
+| ▶️ [GithubStatsAction](https://github.com/StuxAPIs/GithubStatsAction) | A GitHub Action that generates GitHub Readme Stats cards in CI. |
+| 🌙 [Lunar Calendar](https://github.com/StuxAPIs/LunarCalendar) | A lunar calendar API: a StuxAPIs-hosted fork of hnthap's project. Coming soon; its site isn't live yet. |
+
+### Templates
+
+| Template | What it is |
+|---|---|
+| ⏳ [StuxAPIs Soonpage](https://soonpage.stuxapis.net) | A "coming soon" landing page ([repo](https://github.com/StuxAPIs/soonpage)). |
+| 🛠️ [StuxAPIs Maintenancepage](https://maintenancepage.stuxapis.net) | A maintenance holding page ([repo](https://github.com/StuxAPIs/maintenancepage)). |
+| 🪟 [StuxAPIs Servicepage](https://servicepage.stuxapis.net) | A placeholder for a service that hasn't been set up yet ([repo](https://github.com/StuxAPIs/servicepage)). |
+
+### Discontinued
+
+| Service | What it is |
+|---|---|
+| 📦 [GitHubStatsLegacy](https://github.com/StuxAPIs/GitHubStatsLegacy) | The original GitHub Stats API, replaced by GithubStats. |
+
+### Service Status
+
+[![StuxAPIs status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxAPIs%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stuxapis.net)
+
+See [status.stuxapis.net](https://status.stuxapis.net) for every service's live status and uptime history, checked every 5 minutes by [GitHup](https://githup.stux.group).
 
 ### Get Involved
 
-1. **Explore our services**: See the table above, or check out our repositories to see what we're building.
+1. **Explore our services**: See the tables above, [services.stuxapis.net](https://services.stuxapis.net), or check out our repositories to see what we're building.
 2. **Follow us on GitHub**: Stay updated on our latest releases and updates.
 3. **Join our community**: Contribute to discussions, suggest improvements, and collaborate with us!
 

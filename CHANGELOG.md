@@ -2,8 +2,31 @@
 
 All notable changes to this repository are documented here.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+Each release's sections follow a fixed order: Added, Changed, Fixed, Removed, Security, Deprecated. This project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## v26.11.06
+
+### Added
+
+- The organization profile lists StuxAPIs Services and StuxAPIs Status, SeasonalOverlaysLibrary, and the StuxAPIs
+  Soonpage, Maintenancepage and Servicepage templates, with each service's site as well as its repo, and points to
+  services.stuxapis.net for the full list
+- A **Service Status** section on the profile, with the live status badge and a link to status.stuxapis.net
+
+### Changed
+
+- The profile and README headers use the light/dark StuxAPIs logo (`<picture>` with `logo-light.png` and
+  `logo-dark.png`) instead of the plain `logo.png`
+- GitHubStatsLegacy moved to its own Discontinued table, and GitHub Stats and GitHub Stats Action are listed by
+  their real names (GithubStats, GithubStatsAction) and repo links
+- Lunar Calendar is marked coming soon, since its site isn't live yet
+- The README describes what this repository actually holds (the profile, the default `CONTRIBUTING.md`, the
+  metrics workflow and the release scripts) instead of templates and policies it doesn't have
+- The changelog intro gives the fixed section order instead of citing Keep a Changelog
+
+### Fixed
+
+- `CONTRIBUTING.md`'s Versioning section sat below the page's sign-off footer; the footer is now last
 
 ## v26.10.23
 
