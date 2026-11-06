@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stuxapis.net/logo.png" height="100" alt="StuxAPIs Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stuxapis.net/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stuxapis.net/logo-dark.png"><img src="https://global.media.stuxapis.net/logo-dark.png" height="100" alt="StuxAPIs Logo"></picture>
 </p>
 
 # StuxAPIs GitHub Configuration
@@ -8,41 +8,40 @@ The central repository for StuxAPIs' GitHub organization configuration and profi
 
 ## Overview
 
-This repository contains the organization-wide configuration files for the StuxAPIs GitHub profile, including community health files, workflow templates, and organizational settings. This repository helps maintain consistency and best practices across all StuxAPIs projects.
-
-## Features
-
-- 📋 Centralized GitHub organization configuration
-- 🔄 Community health files for all repositories
-- 🛠️ Reusable workflow templates
-- 📝 Issue and pull request templates
-- 🎯 Contributing guidelines and code of conduct
-- 🤝 Contributing best practices
+This repository holds StuxAPIs' GitHub organization profile and the defaults GitHub applies across the
+organization. Every StuxAPIs API and service is listed at [services.stuxapis.net](https://services.stuxapis.net),
+with live status at [status.stuxapis.net](https://status.stuxapis.net).
 
 ## What's Included
 
-This repository typically contains:
-
-- **Workflows** - Reusable GitHub Actions workflows
-- **Templates** - Issue and pull request templates
-- **Community Files** - Contributing guidelines, code of conduct, and security policies
-- **Organization Settings** - Default settings applied to the organization
-
-## How It Works
-
-GitHub automatically applies files from this `.github` repository to all public repositories in the organization (when specific repositories don't have their own versions). This ensures consistent standards and expectations across all projects.
+- **`profile/README.md`**: the organization profile shown at [github.com/StuxAPIs](https://github.com/StuxAPIs):
+  the services, templates and discontinued projects, the live status badge, contact details and activity.
+- **`CONTRIBUTING.md`**: the default contributing guidelines. GitHub shows it on any public StuxAPIs repository
+  that has no `CONTRIBUTING.md` of its own.
+- **`.github/workflows/generateMetrics.yml`**: builds the profile's activity card (`stats.svg`, plus the
+  `notable_*` cards) daily and on every push to `main`, onto the orphan `metrics` branch. It needs a
+  `METRICS_TOKEN` secret.
+- **`commit.sh` / `commit.bat`** and **`tests/version.sh`**: the release flow (see [Versioning](#versioning)).
 
 ## File Structure
 
 ```
 .github/
-├── workflows/          # Reusable GitHub Actions workflows
-├── ISSUE_TEMPLATE/     # Issue templates
-├── PULL_REQUEST_TEMPLATE/
-├── CONTRIBUTING.md     # Contribution guidelines
-├── CODE_OF_CONDUCT.md  # Community code of conduct
-└── SECURITY.md         # Security policy
+├── .github/workflows/
+│   └── generateMetrics.yml   # Profile activity cards, onto the metrics branch
+├── profile/
+│   └── README.md             # The organization profile
+├── tests/
+│   └── version.sh            # Checks VERSION.md against CHANGELOG.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md           # Default contributing guidelines
+├── VERSION.md
+├── commit.sh / commit.bat    # Commit and tag a release
+└── LICENSE
 ```
+
+When you add, rename or retire a StuxAPIs service, update the tables in `profile/README.md` to match
+[services.stuxapis.net](https://services.stuxapis.net).
 
 ## Contributing
 
