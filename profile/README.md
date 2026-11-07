@@ -29,6 +29,7 @@ Every StuxAPIs API and service, with live status, is listed at [services.stuxapi
 | ✨ [SeasonalOverlaysLibrary](https://seasonaloverlayslibrary.stuxapis.net) | Snow, leaves, confetti and fireworks overlays for any page, from one dependency-free script ([repo](https://github.com/StuxAPIs/SeasonalOverlaysLibrary)). |
 | 🐱 [Kittens](https://kittens.stuxapis.net) | An API that provides random images of kittens ([repo](https://github.com/StuxAPIs/Kittens)). |
 | 🔐 [SecretGen](https://secretgen.stuxapis.net) | A simple API that generates secrets ([repo](https://github.com/StuxAPIs/SecretGen)). |
+| ⚡ [FlashView](https://flashview.stuxapis.net) | Plays SWF (Flash) files in the browser with a self-hosted Ruffle, and hosts Ruffle for other sites ([repo](https://github.com/StuxAPIs/FlashView)). |
 | 📊 [GithubStats](https://githubstats.stuxapis.net) | GitHub statistics cards for READMEs and profiles, as an API ([repo](https://github.com/StuxAPIs/GithubStats)). |
 | ▶️ [GithubStatsAction](https://github.com/StuxAPIs/GithubStatsAction) | A GitHub Action that generates GitHub Readme Stats cards in CI. |
 | 🌙 [Lunar Calendar](https://github.com/StuxAPIs/LunarCalendar) | A lunar calendar API: a StuxAPIs-hosted fork of hnthap's project. Coming soon; its site isn't live yet. |
