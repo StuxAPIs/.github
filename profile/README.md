@@ -52,7 +52,7 @@ Every StuxAPIs API and service, with live status, is listed at [services.stuxapi
 
 [![StuxAPIs status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxAPIs%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stuxapis.net)
 
-See [status.stuxapis.net](https://status.stuxapis.net) for every service's live status and uptime history, checked every 5 minutes by [GitHup](https://githup.stux.group).
+See [status.stuxapis.net](https://status.stuxapis.net) for every service's live status and uptime history, checked regularly by [GitHup](https://githup.stux.group).
 
 ### Get Involved
 
