@@ -46,7 +46,7 @@ Every StuxAPIs API and service, with live status, is listed at [services.stuxapi
 
 | Service | What it is |
 |---|---|
-| 📦 [GitHubStatsLegacy](https://github.com/StuxAPIs/GitHubStatsLegacy) | The original GitHub Stats API, replaced by GithubStats. |
+| 📦 [GitHubStatsLegacy](https://github.com/StuxAPIs/GitHubStatsLegacy) | The original GitHub Stats API, replaced by GithubStats. The repository is archived (read-only). |
 
 ### Service Status
 
